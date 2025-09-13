@@ -1,0 +1,75 @@
+/* Custom Styles from the original HTML (Updated for contact part) */
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+
+/* These styles for directions-btn, flight-info, flight-card, flight-detail,
+   and contact-info are being replaced by Tailwind classes directly in the components.
+   You can safely remove them from App.css. */
+/*
+.directions-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.directions-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.flight-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.flight-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.flight-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.flight-detail {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.contact-info {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #2196f3;
+    margin-bottom: 25px;
+}
+*/
+
+/* Keep this if it's still desired or needed elsewhere, but it's not used by the new contact section */
+.category-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
