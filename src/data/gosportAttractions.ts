@@ -10,7 +10,7 @@ import porstmouth_harbour_tours from "../assets/images/gosport_attractions/porst
 import gosport_waterfront_and_millennium_bridge from "../assets/images/gosport_attractions/gosport_waterfront_and_millennium_bridge.png";
 import fort_gilkicker from "../assets/images/gosport_attractions/fort_gilkicker.png";
 
-const gosportAttractions = [
+export const gosportAttractions = [
   {
     id: "explosion-museum",
     title: "Explosion! The Museum of Naval Firepower",
@@ -125,4 +125,3 @@ const gosportAttractions = [
   },
 ];
 
-export default gosportAttractions;

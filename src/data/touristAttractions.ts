@@ -14,7 +14,7 @@ import natural_history_museum from "../assets/images/tourist_attractions/natural
 import victorias_secret_bond_st from "../assets/images/tourist_attractions/victorias_secret_bond_st.png";
 import victorias_secret_westfield from "../assets/images/tourist_attractions/victorias_secret_westfield.png";
 
-const touristAttractions = [
+export const touristAttractions = [
   {
     id: "london-eye",
     title: "London Eye",
@@ -151,5 +151,3 @@ const touristAttractions = [
     mapCoords: "51.5078,-0.2223",
   },
 ];
-
-export default touristAttractions;

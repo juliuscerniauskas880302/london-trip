@@ -1,4 +1,4 @@
-const flightData = {
+export const flightData = {
     outbound: {
       code: "FR3467",
       date: "2025-09-23",
@@ -12,5 +12,3 @@ const flightData = {
       to:   { "airport": "VNO", "city": "Vilnius", "arrivalLocal": "12:00" }
     }
 };
-
-export default flightData;

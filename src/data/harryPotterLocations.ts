@@ -9,7 +9,7 @@ import claremont_square from "../assets/images/harry_potter/claremont_square.png
 import australia_house from "../assets/images/harry_potter/australia_house.png";
 import millennium_bridge from "../assets/images/harry_potter/millennium_bridge.png";
 
-const harryPotterLocations = [
+export const harryPotterLocations = [
   {
     id: "leadenhall",
     title: "Leadenhall Market",
@@ -105,5 +105,3 @@ const harryPotterLocations = [
     website: null,
   },
 ];
-
-export default harryPotterLocations;
